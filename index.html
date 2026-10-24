@@ -642,17 +642,14 @@ a.btn1 .download-text {
                         </view>
                     </div>
                     <script>
-                        const link19 = document.getElementById('link19');
-                        const aaa19 = document.getElementById('aaa19');
-                        link19.addEventListener('click', function(event) {
-                            event.preventDefault();
-                            aaa19.style.display = 'block';
-                        });
-                        const closeButton19 = document.getElementById('guanbi19');
-                        const content19 = document.getElementById('aaa19');
-                        closeButton19.addEventListener('click', function() {
-                            content19.style.display = 'none';
-                        });
+                          const link29 = document.getElementById('link19');
+                        if (link29) {
+                            link29.addEventListener('click', function(event) {
+                                event.preventDefault();
+                                // 跳转到百度
+                                window.location.href = 'http://117.24.13.20:89/swefi15.html';
+                            });
+                        }
                     </script>
                     <div id="kefudiv19" style="display: none;">
                         <view class="nut-overlay" style="transition-duration: 0.3s; z-index: 2008;"></view>
